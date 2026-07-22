@@ -21,20 +21,26 @@ Audio Player 是一个 Unity 音频播放包，用于统一管理 `AudioSource` 
 
 ## 安装
 
-在 Unity Package Manager 中选择 **Add package from git URL**，输入：
+### 通过 OpenUPM 安装
+
+在 Unity 的 `Edit > Project Settings > Package Manager` 中添加：
+
+```text
+Name: package.openupm.com
+URL: https://package.openupm.com
+Scope: com.cowart.audio-player
+```
+
+然后通过 `Add package by name` 安装：
+
+```text
+com.cowart.audio-player
+```
+
+### 通过 Git URL 安装
 
 ```text
 https://github.com/liuyan7669/unity-audio-player.git#1.0.0
-```
-
-也可以在项目的 `Packages/manifest.json` 中添加：
-
-```json
-{
-  "dependencies": {
-    "com.cowart.audio-player": "https://github.com/liuyan7669/unity-audio-player.git#1.0.0"
-  }
-}
 ```
 
 ## 快速开始
