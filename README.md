@@ -40,7 +40,7 @@ com.cowart.audio-player
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-audio-player.git#1.0.0
+https://github.com/liuyan7669/unity-audio-player.git#1.0.1
 ```
 
 ## 快速开始
@@ -64,6 +64,16 @@ public class AudioExample : MonoBehaviour
 ```
 
 `AudioPlayer` 会获取当前物体上的 `AudioSource`，不存在时自动创建。
+
+## 示例场景
+
+在 Package Manager 中打开 Audio Player，导入 `Audio Player Examples`，然后打开：
+
+```text
+Assets/Samples/Audio Player/1.0.1/Audio Player Examples/Audio Player.unity
+```
+
+示例界面使用 UGUI 搭建。进入 Play Mode 后可直接播放运行时生成的测试音，也可以在 Inspector 中绑定自己的 `AudioClip`。场景同时演示播放控制、外部音频加载、播放状态与进度、频谱和输出波形数据。
 
 ## 播放来源
 

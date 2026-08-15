@@ -1,6 +1,6 @@
 {
   "name": "com.cowart.audio-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Audio Player",
   "description": "提供统一音频播放控制、状态与采样时间、自然结束回调、外部音频加载、播放进度、频谱及波形数据。",
   "unity": "2021.3",
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "com.unity.modules.audio": "1.0.0",
-    "com.unity.modules.unitywebrequestaudio": "1.0.0"
+    "com.unity.modules.unitywebrequestaudio": "1.0.0",
+    "com.unity.ugui": "1.0.0"
   },
   "keywords": [
     "audio",
@@ -24,7 +25,7 @@
   "samples": [
     {
       "displayName": "Audio Player Examples",
-      "description": "Audio Player 示例内容，后续逐步补充。",
+      "description": "UGUI 示例：演示 AudioClip 与外部音频播放、控制、状态、进度、频谱和波形数据。",
       "path": "Samples~/Audio Player"
     }
   ]
