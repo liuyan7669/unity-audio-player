@@ -1,4 +1,7 @@
 {
   "name": "Cowart.AudioPlayer",
-  "rootNamespace": "Cowart.AudioPlayer"
+  "rootNamespace": "Cowart.AudioPlayer",
+  "references": [
+    "Cowart.InspectorGroups"
+  ]
 }

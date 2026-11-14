@@ -40,7 +40,7 @@ com.cowart.audio-player
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-audio-player.git#1.0.3
+https://github.com/liuyan7669/unity-audio-player.git#3.1.0
 ```
 
 ## 快速开始
@@ -70,7 +70,7 @@ public class AudioExample : MonoBehaviour
 在 Package Manager 中打开 Audio Player，导入 `Audio Player Examples`，然后打开：
 
 ```text
-Assets/Samples/Audio Player/1.0.1/Audio Player Examples/Audio Player.unity
+Assets/Samples/Audio Player/3.1.0/Audio Player Examples/Audio Player.unity
 ```
 
 示例界面使用 UGUI 搭建。进入 Play Mode 后可直接播放运行时生成的测试音，也可以在 Inspector 中绑定自己的 `AudioClip`。场景同时演示播放控制、外部音频加载、播放状态与进度、频谱和输出波形数据。
@@ -238,3 +238,7 @@ private void OnDisable()
 ## License
 
 本项目使用 MIT License，详见 [LICENSE.md](LICENSE.md)。
+
+## Inspector 统一依赖
+
+本包声明依赖 `com.cowart.inspector-groups` `3.1.0`，Inspector 样式统一由该基础包提供。安装前须配置 OpenUPM scoped registry（`https://package.openupm.com`，scope `com.cowart`）；UPM 会根据 dependencies 连带解析 Inspector Groups。使用未发布源码时，请同时使用本地 Inspector Groups 3.1.0。业务包之间不互相依赖，Samples 的可选组合不受此限制。

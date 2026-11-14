@@ -21,6 +21,7 @@ namespace Cowart.AudioPlayer
 
     /// <summary>负责当前物体上的音频播放、停止和自然播放结束检测。</summary>
     [AddComponentMenu("")]
+    [Cowart.InspectorGroups.HideScript]
     public sealed class AudioPlayer : MonoBehaviour
     {
         /// <summary>每次采集的频谱和波形样本数量；必须是 2 的幂。</summary>
